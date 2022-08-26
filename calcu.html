@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculting</title>
+    <link rel="stylesheet" href="calcu.css">
+</head>
+<body>
+    <div id="container">
+            <div class="input-con">
+                <input type="text"  name="text" id="display" placeholder="0">
+            </div>
+
+            <div class="button-con">
+                <div class="rows">
+                    <button class="change" id="btns">C</button>
+                <button onclick="sqrt()">&radic;</button>
+                <button class="btn" onclick="pi()">π</button>
+                <button id="btns">(</button>
+                <button class="btn" id="btns">)</button>
+                <button  class="change" id="btns">Del</button>
+                </div>
+                <div class="rows">
+                <button onclick="pow()">x<sup>2</sup></button>
+                <button class="btn" onclick="pows()">x<sup>3</sup></button>
+                <button id="btns">7</button>
+                <button class="btn" id="btns">8</button>
+                <button id="btns">9</button>
+                <button class="btn" id="btns">-</button>
+                </div>
+                <div class="rows">
+                <button class="btn" id="btns">/</button>
+                <button>%</button>
+                <button class="btn" id="btns">4</button>
+                <button id="btns">5</button>
+                <button class="btn" id="btns">6</button>
+                <button id="btns">+</button>
+                </div>
+                <div class="rows">
+                <button id="btns">.</button>
+                <button class="btn" id="btns">0</button>
+                <button id="btns">1</button>
+                <button class="btn" id="btns">2</button>
+                <button id="btns">3</button>
+                <button class="btn" id="btns">*</button>
+                </div>
+                <div class="rows">
+                <button class="btn"  id="col" onclick="cos()">Cos</button>
+                <button id="col" onclick="sin()">Sin</button>
+                <button class="btn" id="col" onclick="tan()">Tan</button>
+                <button  id="col" onclick="log()">log</button>
+                <button onclick="e()">e</button>
+                <button onclick="fact()">x!</button>
+                </div>
+                <div class="rows">
+                <button id="btns" class="equal">=</button>
+                </div>
+            </div>
+    </div>
+    <script src="calcu.js"></script>
+</body>
+</html>
